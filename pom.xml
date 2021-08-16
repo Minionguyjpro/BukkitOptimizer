@@ -37,7 +37,7 @@
 			<resource>
 				<targetPath>.</targetPath>
 				<filtering>true</filtering>
-				<directory>${basedir}/src/main/resources/</directory>
+				<directory>${basedir}/src/minionguyjpro/bukkitoptimizer</directory>
 				<excludes>
 					<exclude>**/*.java</exclude>
 				</excludes>
