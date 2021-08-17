@@ -19,12 +19,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.minioncraft</groupId>
+	<groupId>com.minionguyjpro</groupId>
 	<artifactId>BukkitOptimizer</artifactId>
 	<version>1.2-SNAPSHOT</version>
 	<name>BukkitOptimizer</name>
-	<url>http://github.com/Minionguyjpro/BukkitOptimizer</url>
-	<description>An Minecraft plugin which optimizes Minecraft servers that run Bukkit or Spigot; see http://github.com/Minionguyjpro/BukkitOptimizer for the source and README.</description>
+	<url>http://github.com/pgmann/tablisthide</url>
+	<description>This is a Minecraft Bukkit plugin which optimizes Minecraft servers; see http://github.com/Minionguyjpro/BukkitOptimizer for the source and README.</description>
 
 	<issueManagement>
 		<system>Github Issues</system>
@@ -37,7 +37,7 @@
 			<resource>
 				<targetPath>.</targetPath>
 				<filtering>true</filtering>
-				<directory>${basedir}/src/minionguyjpro/bukkitoptimizer</directory>
+				<directory>${basedir}/src/main/resources/</directory>
 				<excludes>
 					<exclude>**/*.java</exclude>
 				</excludes>
@@ -79,6 +79,11 @@
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>1.8.3-R0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.comphenix.protocol</groupId>
+			<artifactId>ProtocolLib</artifactId>
+			<version>3.6.5</version>
 		</dependency>
 	</dependencies>
 </project>
